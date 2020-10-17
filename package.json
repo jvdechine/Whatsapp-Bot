@@ -1,0 +1,20 @@
+{
+  "name": "bot-zap",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r esm --icu-data-dir=node_modules/full-icu bin/dev",
+    "start": "node -r esm index.js"
+  },
+  "author": "João Victor Dechine",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^2.0.26",
+    "axios": "^0.16.2",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "full-icu": "^1.3.1"
+  }
+}
